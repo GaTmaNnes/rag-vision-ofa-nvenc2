@@ -1,0 +1,12 @@
+[package]
+name = "jarvis-mini"
+version = "0.1.0"
+edition = "2021"
+description = "JARVIX mini — coeur RAG (scan + BM25) + ingestion video honnete, demo compacte"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+walkdir = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
